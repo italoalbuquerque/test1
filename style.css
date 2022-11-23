@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+#top {
+    font-size: 1.1em;
+    font-weight: 500;
+    
+    padding: 5px;
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 230px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+}
+
+.main h1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.main a {
+    color: black;
+}
+
+.main {
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    width: 70vw;
+    height: 970px;
+    
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 600px;
+}
+
+#text {
+    text-align: left;
+    margin-left: 50px;
+    font-size: .9em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.main > p {
+    margin: auto;
+    font-size: 1.4em;
+    width: 65vw;
+}
+
+#a {
+    display: flex;
+    align-items: center;
+
+    font-size: 1.3em;
+    width: 220px;
+    
+    border: 2px solid #015BCD;
+    border-radius: 5px;
+    padding: 10px;
+    color: #015BCD;
+    text-decoration: none;
+}
+
+#a:hover {
+    background-color: #015BCD;
+    color: white;
+}
+
+#a a {
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+    color: #015BCD;
+    text-decoration: none;
+}
+
+#a a:hover {
+    background-color: #015BCD;
+    color: white;
+}
+
+
+
+i {
+    height: 30px;
+    margin: auto;
+    font-size: 1.4em;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+    font-size: .7em;
+    width: 680px;
+    margin-bottom: 80px;
+}
+
+.footer a {
+    color: black;
+}
+
+@media screen and (max-width: 830px) {
+    .footer {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 890px) {
+
+    #top {
+        margin-left: 10px;
+    }
+
+    .main {
+        box-shadow: none;
+        width: 70vw;
+        height: 900px;
+        
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #text {
+        text-align: left;
+        margin-left: 20px;
+        font-size: .9em;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-style: italic;
+    }
+
+    .footer {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .main {
+        margin-bottom: 10px;
+    }
+}
